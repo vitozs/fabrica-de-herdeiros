@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600;700;800&display=swap');
+
+@import url('https://fonts.cdnfonts.com/css/circular-std');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800;900&display=swap');
+
+                
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    overflow-x: hidden;
+    background-color: black;
+    color: white;
+
+}
+
+/******************************************
+GLOBALS*/
+.destaque--yellow{
+    color: yellow;
+}
+
+.destaque--underline{
+    text-decoration: underline;
+}
+
+.destaque--green{
+    color: rgb(9, 221, 9);
+}
+
+.destaque--background-text{
+    background-color: rgb(19, 182, 19);
+}
+
+.destaque--yellowBlack{
+    background-color: yellow;
+    color: black;
+}
+
+/************************************************
+SEÇÃO 1*/
+
+
+/*Background*/
+
+.sect-1{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+
+}
+
+.sect-1::before{
+    content: "";
+    background: url('../srcs/background.jpg') no-repeat fixed;
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.3;
+}
+
+.sect-1 div{
+    position: relative;
+}
+
+/*Content*/
+.content--sect1{
+    margin: 0 auto;
+    width: 55%;
+
+}
+
+
+
+/*******************************************************
+SEÇÃO 2*/
+
+
+.sect-2{
+    background-color: black;
+    width: 100vw;
+    height: 100vh;
+
+}
+
+.content--sect2{
+    margin: 0 auto;
+    width: 75%;
+    
+}
+
+
+
+
+/***********************************************************
+SEÇÃO 3*/
+
+.sect-3{
+    background-color: rgb(19, 18, 18);
+    width: 100vw;
+    height: auto;
+
+}
+
+.background-black{
+    background-color: black;
+    padding: 30px;
+}
+
+/***************************************************************
+SEÇÃO 4*/
+
