@@ -1,0 +1,44 @@
+@media (max-width: 1200px) {
+    
+    .content--sect1, .content--sect2{
+        width: auto;
+    }
+
+  .sect-2{
+    height: auto;
+    width: auto;
+    padding: 15px;
+  }
+
+  iframe, .sect-4 img{
+    width: 290px;
+  }
+
+  .background-black{
+    padding: 0px;
+  }
+
+  .garantia{
+    width: 100%;
+    text-align: center;
+  }
+
+  h3{
+    font-size: 1em;
+  }
+
+
+  .sect-4 img{
+    margin: 0 auto;
+  }
+
+
+
+}
+@media (max-width: 590px){
+    .blob{
+        font-size: .3em;
+        width: 100%;
+        text-align: center;
+    }
+}

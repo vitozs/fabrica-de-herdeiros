@@ -2,17 +2,49 @@
 
 @import url('https://fonts.cdnfonts.com/css/circular-std');
 
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800;900&display=swap');
+/*@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800;900&display=swap');*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800;900&display=swap');
 
-                
+@import url('./responsive.css');                
 
 body{
     font-family: 'Montserrat', sans-serif;
-    font-weight: 800;
-    overflow-x: hidden;
     background-color: black;
     color: white;
 
+}
+
+body,html{
+    overflow-x: hidden;
+
+}
+
+*{
+    font-weight: 800;
+
+}
+
+h3{
+    font-weight: 800;
+}
+
+p{
+    font-weight: 400;
+}
+
+li{
+    font-weight: 600;
+    list-style: none;
+}
+
+ul{
+    text-align: center;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+    color: black;
 }
 
 /******************************************
@@ -38,6 +70,7 @@ GLOBALS*/
     color: black;
 }
 
+
 /************************************************
 SEÇÃO 1*/
 
@@ -47,7 +80,7 @@ SEÇÃO 1*/
 .sect-1{
     position: relative;
     width: 100vw;
-    height: 100vh;
+    height: auto;
 
 }
 
@@ -89,7 +122,7 @@ SEÇÃO 2*/
 
 .content--sect2{
     margin: 0 auto;
-    width: 75%;
+    width: auto;
     
 }
 
@@ -113,4 +146,18 @@ SEÇÃO 3*/
 
 /***************************************************************
 SEÇÃO 4*/
+.sect-4{
+    background-color: rgb(19, 18, 18);
 
+}
+
+.garantia{
+    width: 35%;
+}
+
+
+/**************************************************************
+FOOTER*/
+.privacidade:hover{
+    text-decoration: underline;
+}
