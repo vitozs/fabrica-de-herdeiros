@@ -19,24 +19,27 @@
     <!--Jquery-->
     <script src="https://code.jquery.com/jquery-3.6.4.js" integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E=" crossorigin="anonymous"></script>
 
+    <!--AOS-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
     <!--Js-->
     <script src="scripts/misc.js"></script>
     
 
 </head>
 <body>
-    
+    <script>
+        AOS.init();
+    </script>
+
     <section class="sect-1 p-5"> <!--Seção 1--> 
         <div class="content--sect1 d-flex justify-content-center align-items-center flex-column">
 
-            <h1 class="text-center fs-2">Descubra a estratégia para ter uma <span class="destaque--yellow"> renda extra </span> caindo na conta <span class="destaque--yellow">TODOS OS MESES</span> <span class="destaque--underline">sem ter que trabalhar para isso.</span></h1>
+            <h1 class="text-center">Descubra a estratégia para ter uma <span class="destaque--yellow"> renda extra </span> caindo na conta <span class="destaque--yellow">TODOS OS MESES</span> <span class="destaque--underline">sem ter que trabalhar para isso.</span></h1>
             
-            <div class="mt-5">
-                <iframe src="https://player.vimeo.com/video/806609123?h=c96b816a38&title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen ></iframe>
-            </div>
+            <iframe class="sect1--video mt-5" src="https://player.vimeo.com/video/806609123?h=c96b816a38&title=0&byline=0&portrait=0" width="640" height="373" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen ></iframe>
     
-            <a class='blob m-5 fs-4' href="https://lastlink.com/p/C725534C9/checkout-payment"> QUERO APRENDER A INVESTIR</a>
-
         </div>
 
 
@@ -44,27 +47,44 @@
         
     </section>
 
-    <section class="sect-2 p-5"> <!--Seção 2--> 
-        <div class="content--sect2 mt-3">
-            <h3 class="fs-3 text-center">Receba ajuda para iniciar seus investimentos e ganhe cheques de <span class="destaque--green">R$200, R$1.100, e até R$2.400 por mês</span>, mesmo que você não tenha <span class="destaque--underline">nenhuma experiência
+    <section class="sect-2 p-2"> <!--Seção 2--> 
+        <div class="content--sect2 d-flex flex-column justify-content-center align-items-center" >
+            <h3 data-aos="fade-right" class="text-center">Receba ajuda para iniciar seus investimentos e ganhe cheques de <span class="destaque--green">R$200, R$1.100, e até R$2.400 por mês</span>, mesmo que você não tenha <span class="destaque--underline">nenhuma experiência
             </span> no mercado financeiro</h3>
-            <p class="text-center mt-4"><span class="destaque--background-text">O jeito mais rápido, fácil e seguro que existe para ganhar dinheiro com a bolsa em 2023</span></p>
-            <div class="d-block d-md-flex flex-row justify-content-between align-itens-center mt-5 text-center">
-                <iframe width="400" height="315" src="https://www.youtube-nocookie.com/embed/933V8n_vGcc?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                
-                <iframe width="400" height="315" src="https://www.youtube-nocookie.com/embed/sCSwU94cyts?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                
-                <iframe width="400" height="315" src="https://www.youtube-nocookie.com/embed/cOwGWV6K6x8?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-            </div>
+            <p data-aos="fade-right" class="text-center mt-4"><span class="destaque--background-text">O jeito mais rápido, fácil e seguro que existe para ganhar dinheiro com a bolsa em 2023</span></p>
+            <a data-aos="zoom-in" class='blob m-5 fs-4'  href="https://lastlink.com/p/C725534C9/checkout-payment"> QUERO APRENDER A INVESTIR</a>
+            
         </div>
 
     </section>
 
+    <section class="sect--alunos" style="background-color: black; "> 
+        <h3 class="fs-3 text-center">QUALIDADE <span class="destaque--yellow">COMPROVADA</span> POR ALUNOS</h3>
+            <div data-aos="fade-right" class="d-block d-md-flex flex-row justify-content-around align-itens-center mt-5 text-center">
+                <div class="d-flex flex-column text-center">
+                    <iframe width="400" height="315" src="https://www.youtube-nocookie.com/embed/933V8n_vGcc?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    <p class="mt-4">Aluna Walesca</p>
+                </div>
+
+                <div>
+                    <iframe width="400" height="315" src="https://www.youtube-nocookie.com/embed/sCSwU94cyts?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    <p class="mt-4">Aluno Rafael</p>
+
+                </div>
+
+                <div>
+                    <iframe width="400" height="315" src="https://www.youtube-nocookie.com/embed/cOwGWV6K6x8?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    <p class="mt-4">Aluna Denise</p>
+
+
+                </div>
+            </div>
+    </section>
     <section class="sect-3 p-3 p-md-5"> <!--Seção 3-->
         
-        <h2 class="text-center mb-5"><span class="background-black"><span class="destaque--underline">O QUE VOCE IRÁ APRENDER NO <span class="destaque--yellow">FÁBRICA DE HERDEIROS</span>:</span></span></h2>
+        <h2 data-aos="fade-up" class="text-center mb-5"><span class="background-black"><span class="destaque--underline">O QUE VOCE IRÁ APRENDER NO <span class="destaque--yellow">FÁBRICA DE HERDEIROS</span>:</span></span></h2>
 
-        <div class="d-flex flex-column justify-content-center align-items-center"> 
+        <div data-aos="fade-left" class="d-flex flex-column justify-content-center align-items-center"> 
             <div class="mb-5 d-flex justify-content-center flex-column text-center">
                 <h3>MÓDULO 1: <span class="destaque--yellow">CONHECIMENTO</span></h3>
                 <ul>
@@ -129,20 +149,23 @@
 
     <section class="p-5 sect-4"><!--Seção 4-->
 
-        <h1 class="text-center">GARANTIA <br> <span class="destaque--yellowBlack p-1">INCONDICIONAL</span></h1>
+        <div data-aos="zoom-in">
+            <h1 class="text-center">GARANTIA <br> <span class="destaque--yellowBlack p-1">INCONDICIONAL</span></h1>
 
-        <div class=" d-flex justify-content-center align-itens-center flex-md-row flex-column">
-            <img src="srcs/garantia.png" alt="" style="scale: 0.8;" >
-
-            <div class="pt-5 garantia"">
-                <p>Talvez você esteja seguro...</p>
-                <p>Por isso iremos lhe oferecer <span class="destaque--yellow">7 DIAS DE GARANTIA INCONDICIONAL</span> </p>
-                <p>Se por algum motivo você não gostar do produto, nós devolvemos <span class="destaque--yellow"> TODO SEU DINHEIRO</span></p>
-                <p>O risco é todo nosso!</p>
-
-
+            <div class=" d-flex justify-content-center align-itens-center flex-md-row flex-column">
+                <img src="srcs/garantia.png" alt="" style="scale: 0.8;" class="garantia--logo" >
+    
+                <div class="pt-5 garantia"">
+                    <p>Talvez você esteja inseguro...</p>
+                    <p>Por isso iremos lhe oferecer <span class="destaque--yellow">7 DIAS DE GARANTIA INCONDICIONAL</span> </p>
+                    <p>Se por algum motivo você não gostar do produto, nós devolvemos <span class="destaque--yellow"> TODO SEU DINHEIRO</span></p>
+                    <p>O risco é todo nosso!</p>
+    
+    
+                </div>
             </div>
         </div>
+     
     </section>
 
     <footer class="p-5">
@@ -155,6 +178,9 @@
             Termos de uso    |    <a class="privacidade" style="color: white; font-weight: 400;" href="https://gabrielnavarro.com.br/fabricadeherdeiros/privacidade/">Privacidade</a>
         </div>
     </footer>
+    
+    
+
 
 </body>
 </html>
