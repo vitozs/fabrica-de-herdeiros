@@ -68,6 +68,10 @@ GLOBALS*/
     color: black;
 }
 
+.borda{
+    border: 1px solid yellow;
+}
+
 
 /************************************************
 SEÇÃO 1*/
@@ -122,7 +126,7 @@ SEÇÃO 2*/
 
 .content--sect2{
     margin: 0 auto;
-    width: auto;
+    width: 80%;
     
 }
 

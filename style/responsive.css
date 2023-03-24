@@ -1,3 +1,8 @@
+@media (min-width:1200px){
+  h3{
+    font-size: 1.5em;
+  }
+}
 @media (max-width: 1200px ) {
     
     .content--sect1, .content--sect2{
@@ -71,4 +76,10 @@
     .sect--alunos{
       padding: 2em;
     }
+
+    a.fs-4{
+      font-size: 1.2em!important;
+    }
+
+
 }
