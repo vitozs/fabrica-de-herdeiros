@@ -2,6 +2,7 @@
   h3{
     font-size: 1.5em;
   }
+
 }
 @media (max-width: 1200px ) {
     
@@ -43,7 +44,7 @@
 @media (max-width:1190px) {
   .sect1--video{
     scale: 1.6;
-    height: 250px;
+    height: 160px;
   }
 }
 

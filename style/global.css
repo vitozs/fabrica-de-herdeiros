@@ -1,7 +1,9 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800;900&display=swap');
 
-@import url('./responsive.css');                
+@import url('./responsive.css'); 
+
+@import url(./video.css);
 
 body{
     font-family: 'Montserrat', sans-serif;
@@ -35,7 +37,7 @@ li{
     list-style: none;
 }
 
-ul{
+.sect-3 ul{
     text-align: center;
     padding: 0;
 }
@@ -109,20 +111,30 @@ SEÇÃO 1*/
 }
 
 .content--sect1 h1{
-    font-size: 1.6em;
+    font-size: 1.4em;
   }
+
 
 
 /*******************************************************
 SEÇÃO 2*/
 
 
-.sect-2{
+.sect-3{
     width: 100vw;
     height: auto;
-    background-color: rgb(0, 0, 0 , 0.8);
-
+    position: relative;
 }
+
+/*.sect-3::before{
+    content: '';
+    position: absolute;
+    inset: 0;
+    background:  url(../srcs/background2.jpg) no-repeat fixed;
+    background-size: cover;
+    opacity: 0.5;
+}*/
+
 
 .content--sect2{
     margin: 0 auto;
