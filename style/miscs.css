@@ -1,0 +1,93 @@
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    background: url('../srcs/background.jpg') no-repeat fixed;
+    background-size: cover;
+
+    color: white;
+
+}
+
+body,html{
+    overflow-x: hidden;
+
+}
+
+*{
+    font-weight: 800;
+
+}
+
+h3{
+    font-weight: 800;
+}
+
+p{
+    font-weight: 400;
+}
+
+li{
+    font-weight: 600;
+    list-style: none;
+}
+
+.sect--modulos ul{
+    text-align: center;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+section{
+    position: relative;
+    width: 100vw;
+    height: auto;
+}
+
+
+.destaque--yellow{
+    color: yellow;
+}
+
+.destaque--underline{
+    text-decoration: underline;
+}
+
+.destaque--green{
+    color: rgb(9, 221, 9);
+}
+
+.destaque--background-text{
+    background-color: rgb(19, 182, 19);
+}
+
+.destaque--yellowBlack{
+    background-color: yellow;
+    color: black;
+}
+
+.borda{
+    border: 1px solid yellow;
+}
+
+.divisoria{
+    background-color: rgba(0, 0, 0, 0.8);
+    width: 100vw;
+    height: auto;
+}
+
+.bg--opacity{
+    background: rgb(0, 0, 0, 0.8);
+}
+
+.sect--content{
+    margin: 0 auto;
+    
+}
+
+.sect--content h1{
+    font-size: 1.4em;
+}

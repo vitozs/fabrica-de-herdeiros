@@ -5,90 +5,13 @@
 
 @import url(./video.css);
 
-body{
-    font-family: 'Montserrat', sans-serif;
-    background: url('../srcs/background.jpg') no-repeat fixed;
-    background-size: cover;
-
-    color: white;
-
-}
-
-body,html{
-    overflow-x: hidden;
-
-}
-
-*{
-    font-weight: 800;
-
-}
-
-h3{
-    font-weight: 800;
-}
-
-p{
-    font-weight: 400;
-}
-
-li{
-    font-weight: 600;
-    list-style: none;
-}
-
-.sect-3 ul{
-    text-align: center;
-    padding: 0;
-}
-
-a{
-    text-decoration: none;
-    color: black;
-}
-
-/******************************************
-GLOBALS*/
-.destaque--yellow{
-    color: yellow;
-}
-
-.destaque--underline{
-    text-decoration: underline;
-}
-
-.destaque--green{
-    color: rgb(9, 221, 9);
-}
-
-.destaque--background-text{
-    background-color: rgb(19, 182, 19);
-}
-
-.destaque--yellowBlack{
-    background-color: yellow;
-    color: black;
-}
-
-.borda{
-    border: 1px solid yellow;
-}
+@import url(./miscs.css);
 
 
-/************************************************
-SEÇÃO 1*/
+/*****************************************
+SEÇÃO INICIAL*/
 
-
-/*Background*/
-
-.sect-1{
-    position: relative;
-    width: 100vw;
-    height: auto;
-
-}
-
-.sect-1::before{
+.sect--venda::before{
     content: "";
     background-color: black;
     position: absolute;
@@ -99,66 +22,14 @@ SEÇÃO 1*/
     opacity: 0.8;
 }
 
-.sect-1 div{
+.sect--venda div{
     position: relative;
-}
-
-/*Content*/
-.content--sect1{
-    margin: 0 auto;
-    width: 55%;
-
-}
-
-.content--sect1 h1{
-    font-size: 1.4em;
-  }
-
-
-
-/*******************************************************
-SEÇÃO 2*/
-
-
-.sect-3{
-    width: 100vw;
-    height: auto;
-    position: relative;
-}
-
-/*.sect-3::before{
-    content: '';
-    position: absolute;
-    inset: 0;
-    background:  url(../srcs/background2.jpg) no-repeat fixed;
-    background-size: cover;
-    opacity: 0.5;
-}*/
-
-
-.content--sect2{
-    margin: 0 auto;
-    width: 80%;
-    
-}
-
-
-
-
-/***********************************************************
-SEÇÃO 3*/
-
-.sect-3{
-    background-color: rgba(0, 0, 0, 0.8);
-    width: 100vw;
-    height: auto;
-
 }
 
 
 /***************************************************************
-SEÇÃO 4*/
-.sect-4{
+SEÇÃO GARANTIA*/
+.sect--garantia{
     background-color: rgb(19, 18, 18);
 
 }
