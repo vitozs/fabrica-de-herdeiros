@@ -7,26 +7,16 @@
 
 @import url(./miscs.css);
 
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css");
 
 /*****************************************
 SEÇÃO INICIAL*/
 
-.sect--venda::before{
-    content: "";
-    background-color: black;
-    position: absolute;
-    top: 0px;
-    right: 0px;
-    bottom: 0px;
-    left: 0px;
-    opacity: 0.8;
+
+
+.title{
+    font-weight: 800;
 }
-
-.sect--venda div{
-    position: relative;
-}
-
-
 /***************************************************************
 SEÇÃO GARANTIA*/
 .sect--garantia{
@@ -71,3 +61,68 @@ footer{
     padding: 5em .5em;
 }
 
+.planos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    padding: 5em 1em 1em;
+    border-radius: 15px;
+    border: 1px solid yellow;
+}
+
+.assinaturas ul{
+    margin-top: 2em;
+    text-align: start;
+    font-size: .9em;
+    list-style: none;
+    padding: 0;
+}
+
+.assinaturas ul li{
+    font-weight: 400;
+    padding-left: 1em;
+
+}
+
+.assinaturas .disable{
+    text-decoration: line-through;
+    opacity: 0.7;
+}
+
+
+
+.assinaturas li.disable:before {
+    content: "\F659"; /* FontAwesome Unicode */
+    font-family: "Bootstrap-icons";
+    display: inline-block;
+    margin-right: .125em;
+    width: var(--icon-space);
+}
+
+.assinaturas li:before {
+    content: "\F633"; /* FontAwesome Unicode */
+    font-family: "Bootstrap-icons";
+    display: inline-block;
+    margin-right: .125em;
+    width: var(--icon-space);
+}
+
+.faq--pergunta{
+    background-color: black;
+    border-radius: 15px;
+    padding: 25px;
+    color: white;
+    width: 100%;
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.faq--box{
+    width: 100%;
+    margin: 15px;
+}
